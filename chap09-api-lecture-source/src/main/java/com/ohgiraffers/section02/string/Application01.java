@@ -29,11 +29,13 @@ public class Application01 {
         System.out.println();
 
         /* 필기. concat(): 문자열에 인자로 전달된 문자열을 합쳐서 새로운 문자열 반환 */
-        System.out.println("concat(): " + str2.concat(str5));
+        System.out.println("concat(): " + str2.concat(str5));                      // 얘는 변수
+        System.out.println("concat(): " + new String("java").concat(str5)); // 얘는 객체
         System.out.println("str2: " + str2);
         System.out.println();
 
         /* 필기. indexOf(): 문자열에서 특정 문자를 탐색하여 처음 일치하는 인덱스 위치를 정수형으로 반환한다.(일치하지 않으면 -1 반환) */
+        /* 띄어쓰기도 한 칸으로 인식함 */
         String indexOf = "java maraDB";
         System.out.println("indexOf('a'): " + indexOf.indexOf('a'));
         System.out.println("indexOf('z'): " + indexOf.indexOf('z'));
@@ -65,6 +67,7 @@ public class Application01 {
         /* 필기. substring(): 문자열의 일부분을 잘라내어 새로운 문자열을 반환한다. */
         String javamariaDB = "javamariaDB";
 
+        // substring(biginindex, endindex)이고, bigin index부터 end index - 1 까지 추출
         System.out.println("substring(3, 6): " + javamariaDB.substring(3, 6));
         System.out.println("substring(3): " + javamariaDB.substring(3));
 
@@ -77,12 +80,15 @@ public class Application01 {
         System.out.println();
 
         /* 필기. length(): 문자열의 길이를 정수형으로 반환한다. */
+        // 배열은 arr.length, 문자열은 str.length()로 소괄호가 붙는다.
         System.out.println("length(): " + javamariaDB.length());
         System.out.println("빈 문자열 길이: " + "".length());
         System.out.println();
 
         /* 필기. isEmpty(): 문자열의 길이가 0이면 true를 반환, 아니면 false를 반환(null과 다르다.) */
-        System.out.println("isEmpty(): " + "".isEmpty());
+        // 빈문자열("")과 문자열이라는 객체가 없는 것(null)은 다른 것이다.
+        System.out.println("isEmpty(): " + "".isEmpty());                       // 빈 문자열
+        System.out.println("isEmpty(): " + new String("").isEmpty());   // 객체에 문자열이 없는 것
         System.out.println("isEmpty(): " + "abc".isEmpty());
     }
 }
