@@ -11,7 +11,7 @@ public class Application02 {
 
         /* 수업목표. java.util.Calendar 클래스 사용법을 이해하고 사용할 수 있다. */
         /* 필기. Date형 대비 개선점
-            1. timezone고 ㅏ관련된 기능이 추가되었다.
+            1. timezone과 관련된 기능이 추가되었다.
             2. 윤년 관련 기능이 내부적으로 추가되었다.
             3. 날짜 및 시간 필드 개념을 추가해 불필요한 메소드명을 줄였다.
          */
@@ -65,8 +65,5 @@ public class Application02 {
 //        String birthdayString = sdf.format(birthDay);           // Calendar 타입을 format에 넣으면 런타임 에러 발생
         String birthdayString = sdf.format(new Date(birthDay.getTimeInMillis()));       // long 타입으로 변환해주는 메소드
         System.out.println("birthdayString = " + birthdayString);
-
-
-
     }
 }

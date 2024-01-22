@@ -23,7 +23,7 @@ public class Application05 {
 
         /* 설명. 기본 패턴이 아닌 경우 */
         String timeNow2 = "14.05.10";
-        String dateNow2 = "221003";
+        String dateNow2 = "221003";         // java 패키지는 년도가 22로 입력되있으면 자동으로 2000을 더해 2022로 출력해준다.
 
         LocalTime localTime2 = LocalTime.parse(timeNow2, DateTimeFormatter.ofPattern("HH-mm-ss"));
         LocalTime localDate2 = LocalTime.parse(dateNow2, DateTimeFormatter.ofPattern("yyMMdd"));

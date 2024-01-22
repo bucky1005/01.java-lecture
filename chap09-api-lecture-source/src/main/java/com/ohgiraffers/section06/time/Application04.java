@@ -8,6 +8,7 @@ public class Application04 {
     public static void main(String[] args) {
 
         /* 수업목표. time 패키지의 클래스가 제공하는 날짜 비교 연산 메소드를 활용할 수 있다. */
+        /* 필기. 통계를 구할때 주로 사용됨 */
         LocalDate localDate = LocalDate.now();
         LocalDateTime localDateTime = LocalDateTime.now();
         ZonedDateTime zonedDateTime = ZonedDateTime.now();
