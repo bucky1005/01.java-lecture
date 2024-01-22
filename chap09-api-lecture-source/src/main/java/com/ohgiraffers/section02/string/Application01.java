@@ -36,7 +36,7 @@ public class Application01 {
 
         /* 필기. indexOf(): 문자열에서 특정 문자를 탐색하여 처음 일치하는 인덱스 위치를 정수형으로 반환한다.(일치하지 않으면 -1 반환) */
         /* 띄어쓰기도 한 칸으로 인식함 */
-        String indexOf = "java maraDB";
+        String indexOf = "java mariaDB";
         System.out.println("indexOf('a'): " + indexOf.indexOf('a'));
         System.out.println("indexOf('z'): " + indexOf.indexOf('z'));
         System.out.println();

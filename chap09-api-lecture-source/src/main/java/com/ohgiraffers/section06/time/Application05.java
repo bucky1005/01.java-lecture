@@ -4,14 +4,14 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class Applicaion05 {
+public class Application05 {
     public static void main(String[] args) {
 
         /* 수업목표. time 패키지의 클래스들에 포맷팅을 적용하여 출력할 수 있다. */
         /* 설명. 문자열을 time 패키지 자료형으로 파싱할 수 있다.(사용 인식 가능한 문자열 패턴) */
         /* 필기. 날짜를 다룰 때에는 문자열로 저장하여 파싱을 사용하는 것이 용이함. */
         String timeNow = "14:05:10";
-        String dateNow = "2022-10-12";
+        String dateNow = "2022/10/12";
 
         LocalTime localTime = LocalTime.parse(timeNow);
         LocalTime localDate = LocalTime.parse(dateNow);

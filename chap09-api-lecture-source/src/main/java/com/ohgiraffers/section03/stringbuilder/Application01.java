@@ -9,7 +9,7 @@ public class Application01 {
          */
 
         StringBuilder sb = new StringBuilder("java");
-//        StringBuilder sb2 = "java";               // StringBuilder는 문자열을 다루지만 리터럴은 다루지 않음
+//        StringBuilder sb2 = "java";               // StringBuilder는 문자열을 다루지만 리터럴은 다루지 않음(에러 발생)
         System.out.println(sb);
 
         /* 설명. String과 StringBuilder로 수정 시 객체 주소값 변화 살펴보기 */

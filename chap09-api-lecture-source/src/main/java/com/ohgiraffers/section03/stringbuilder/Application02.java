@@ -37,7 +37,7 @@ public class Application02 {
         /* 필기. insert(): 인자로 전달된 값을 문자열로 변환 후 지정한 인덱스 위치에 추가한다. */
         System.out.println("insert(): " + sb2.insert(1, "Bao"));          // 1번 인덱스에 삽입
         System.out.println("insert(): " + sb2.insert(0, "Pu"));           // 0번 인덱스에 삽입
-        System.out.println("insert(): " + sb2.insert(sb2.length(), "jabc"));    // 맨뒤에 삽입
+        System.out.println("insert(): " + sb2.insert(sb2.length(), "jdbc"));    // 맨뒤에 삽입
 
         /* 필기. reverse(): 문자열 인덱스 순번을 역순으로 재배열한다. */
         System.out.println("reverse(): " + sb2.reverse());
