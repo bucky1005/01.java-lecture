@@ -1,9 +1,6 @@
 package com.ohgiraffers.section01.list.run;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 public class Application01 {
     public static void main(String[] args) {
@@ -80,8 +77,50 @@ public class Application01 {
         aList.remove(1);
         System.out.println(aList);
 
+        aList.add(null);
+        System.out.println(aList);
+
         /* 설명. 인덱스값이 아닌 데이터값을 통해 삭제하고 싶은 경우 다음과 같이 할 수 있다. */
         aList.remove(aList.indexOf("apple"));               // apple이 여러개 인 경우 앞의 인덱스에 저장된 것 하나만 삭제됨
         System.out.println("apple 삭제: " + aList);
+
+        /* 설명. ArrayList를 활용해 정렬을 진행해 보자. */
+        List<String> stringList = new ArrayList<>();
+        stringList.add("apple");
+        stringList.add("orange");
+        stringList.add("banana");
+        stringList.add("mango");
+        stringList.add("grape");
+
+        System.out.println("stringList = " + stringList);
+
+        /* 설명. Collections의 sort()메소드를 활용한 정렬 */
+        /* 정렬의 기준은 <>연산자에 대입된 자료형에 정의된 Compareble 인터페이스에 따라 결정됨. */
+        Collections.sort(stringList);       // String은 오름차순으로 정렬됨
+        System.out.println("stringList = " + stringList);
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(4);
+        integerList.add(20);
+        integerList.add(6);
+        integerList.add(8);
+        integerList.add(14);
+
+        System.out.println("integerList = " + integerList);
+
+        Collections.sort(integerList);
+        System.out.println("integerList = " + integerList);
+
+        /* 설명. 내림차순으로 바꾸기 위해 ArrayList에서 LinkedList로 교체 */
+        stringList = new LinkedList<>(stringList);
+
+        // Iterator는 StringTokenizer와 비슷한 클래스
+        // iter에 LinkedList에 저장된 stringList를 역순으로 정렬하여 저장
+        Iterator<String> iter = ((LinkedList<String>)stringList).descendingIterator();  // LinkedList는 desendingIterator()를 제공함
+
+        // iter에 저장된 값을 하나씩 출력
+        while(iter.hasNext()){
+            System.out.println(iter.next());
+        }
     }
 }
