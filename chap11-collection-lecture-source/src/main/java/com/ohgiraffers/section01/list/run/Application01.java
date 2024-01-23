@@ -6,7 +6,8 @@ public class Application01 {
     public static void main(String[] args) {
 
         /* 수업목표. 컬렉션 프레임워크에 대해 이해할 수 있다. */
-        ArrayList aList = new ArrayList();
+//        ArrayList aList = new ArrayList();
+        Vector aList = new Vector();                    // ArrayList는 Vector로 변경 가능
 //        ArrayList<Object> aList = new ArrayList();    // 다이아몬드 연산자(<>)기 없는 제네릭클래스는 <Object>와 같다.
 
         List list = new ArrayList();                    // List 인터페이스는 객체를 생성(new List)할 수 는 없지만 타입으로써의 역할은 가능
