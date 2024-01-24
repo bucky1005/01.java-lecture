@@ -1,10 +1,15 @@
 package com.ohgiraffers.section01.exception;
 
-public class Application01 {
+public class Application {
     public static void main(String[] args) throws Exception{
 
         /* 수업목표. 예외에 대해 이해하고 이를 처리하기 위한 문법을 활용할 수 있다. */
+        /* 필기. 예외를 처리할 수 있는 두 가지 방법
+            1. JVM에게 throws를 통한 위임 (throw로 발생 throws로 처리)
+            2. 개발자가 try-catch를 통한 처리 (throw로 발생 try-catch로 처리)
+         */
         ExceptionTest et = new ExceptionTest();
+//        et.checkEnoughMoney(50000, 10000);      // 여기서 예외 발생 -> ExceptionTest 클래스의 throws new Exception() 객체에 저장
 
         /* 설명. try-catch 구문을 통해 프로그램이 종료되지 않게 처리할 수 있다. */
         /* 추가. try-catch문은 예외가 발생할 것을 고려해 메소드를 사용하는 쪽(주로 main)에서 사용한다. */

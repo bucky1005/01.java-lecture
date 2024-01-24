@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2a816a-a918-4500-8ebf-5643cdd8cc37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/ExceptionTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/MoneyNegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/PriceNegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/uses/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/uses/Application02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/override/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/override/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section01/file/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testReader.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/testBuffer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -43,11 +68,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Application.Application01.executor": "Run",
+    "Application.Application02.executor": "Run",
+    "Application.com.ohgiraffers.section03.users.Application01.executor": "Run",
+    "Application.com.ohgiraffers.section03.uses.Application01.executor": "Run",
     "Gradle.chap12-exception-lecture-source [:Application01.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,12 +91,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ohgiraffers.section02.userexception.exception" />
+      <recent name="com.ohgiraffers.section02.userexception" />
       <recent name="com.ohgiraffers.section01.exception" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ohgiraffers.section02.userexception" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Application01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.exception.Application01" />
+  <component name="RunManager" selected="Application.Application02">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.exception.Application" />
       <module name="chap12-exception-lecture-source.main" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +113,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.userexception.Application01" />
+      <module name="chap12-exception-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.userexception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.userexception.Application02" />
+      <module name="chap12-exception-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.userexception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section03.uses.Application01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.uses.Application01" />
+      <module name="chap12-exception-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.uses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application02" />
+        <item itemvalue="Application.Application01" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.com.ohgiraffers.section03.uses.Application01" />
         <item itemvalue="Application.Application01" />
       </list>
     </recent_temporary>
@@ -99,7 +178,10 @@
       <option name="presentableId" value="Default" />
       <updated>1705992403762</updated>
       <workItem from="1705992404794" duration="165000" />
-      <workItem from="1706054316597" duration="2198000" />
+      <workItem from="1706054316597" duration="11379000" />
+      <workItem from="1706070998069" duration="164000" />
+      <workItem from="1706079789949" duration="1315000" />
+      <workItem from="1706089642621" duration="1769000" />
     </task>
     <servers />
   </component>
