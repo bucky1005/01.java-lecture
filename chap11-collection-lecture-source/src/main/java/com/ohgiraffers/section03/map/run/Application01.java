@@ -6,6 +6,7 @@ public class Application01 {
     public static void main(String[] args) {
 
         /* 수업목표. Map의 자료구조에 대해 이해하고 HashMap을 이용할 수 있다. */
+        /* .put(),  .get() */
         Map<Object, Object> hmap = new HashMap<>();
         Map<String, String> hmap2 = new HashMap<>();
 

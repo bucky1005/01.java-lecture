@@ -72,7 +72,7 @@ public class BookDTO implements Comparable<BookDTO>{     // Comparable은 compar
      */
 //    @Override
 //    public int compareTo(Object o) {
-//        /* 설명. 연산이 가능한 자ㅏ료형(숫자형)에 대해 정렬 기준 정하기 */
+//        /* 설명. 연산이 가능한 자료형(숫자형)에 대해 정렬 기준 정하기 */
 ////        return price - ((BookDTO)o).price;           // 오름차순
 ////        return -(price - ((BookDTO)o).price);        // 내림차순
 ////        return ((BookDTO)o).price - this.price;      // 내림차순

@@ -23,6 +23,7 @@ public class Application02 {
 //        }
 
 //        Collections.sort(bookList);         // BookDTO 클래스에서 Comparable 인터페이스의 compareTo 메소드를 가격으로 오름차순 정렬로 재정의하였음
+        /* 목차 2. Comparator 인터페이스 구현 방법 */
         Collections.sort(bookList, new AscendingPrice());   // sort()의 두번째 매개변수는 정렬 기준을 의미
                                                             // 만들어둔 정렬 기준 클래스를 객체로 생성하여 대입한 것
         Collections.sort(bookList, new DescendingAuthor());

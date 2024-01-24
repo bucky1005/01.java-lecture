@@ -15,7 +15,7 @@ public class Application05 {
 
 //        Queue<String> que = new Queue();
 //        Queue<String> que = new LinkedList<>();
-        PriorityQueue<String> que = new PriorityQueue<>();      // queue이면서 정렬을 위한 최우선 가치에 있는 요소의 순서를 최앞단으로 바꿔주는 기능이 있는 ㅈ료구조
+        PriorityQueue<String> que = new PriorityQueue<>();      // queue이면서 정렬을 위한 최우선 가치에 있는 요소의 순서를 최앞단으로 바꿔주는 기능이 있는 자료구조
 
 
         /* 설명. offer*() */
