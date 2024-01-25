@@ -15,6 +15,7 @@ public class Application03 {
             dos = new DataOutputStream(
                     new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testData.txt"));
 
+            /* 설명. data 타입별로 해당 데이터 타입에 맞는 출력 메소드를 활용하여 파일에 출력하기(순서 중요!) */
             dos.writeUTF("홍길동");
             dos.writeInt(20);
             dos.writeChar('A');
@@ -45,6 +46,7 @@ public class Application03 {
             dis = new DataInputStream(
                     new FileInputStream("src/main/java/com/ohgiraffers/section03/filterstream/testData.txt"));
 
+            /* 설명. 입력받을 때도 출력 때의 순서를 지켜서 입력 받는다. */
             while (true) {          // while의 조건이 true인 경우 무한반복 ->  EOFException 발생, 이를 이용해 예외처리 가능
                 // 데이터를 입력한 순서대로 자료형을 읽어와야 함
                 System.out.println(dis.readUTF());
@@ -52,6 +54,7 @@ public class Application03 {
                 System.out.println(dis.readChar());
             }
         } catch (EOFException e) {  // while 무한 반복에서 발생한 EOFException을 활용하여 반복을 종료하도록 예외처리
+            /* 설명. data 입출력은 EOFException을 활용하여 파일의 끝까지 입력 받는 것을 처리할 수 있다. */
             System.out.println("파일 다 읽어냄");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
