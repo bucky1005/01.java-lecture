@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2a816a-a918-4500-8ebf-5643cdd8cc37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/Application03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/ExceptionTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/MoneyNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/userexception/exception/PriceNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/uses/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/uses/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/override/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section04/override/SuperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section01/file/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testReader.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/testBuffer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/dto/BookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section01/list/run/Application05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-collection-lecture-source/src/main/java/com/ohgiraffers/section03/map/run/Application01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/exception/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a2a816a-a918-4500-8ebf-5643cdd8cc37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,29 +34,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.Application01.executor": "Run",
-    "Application.Application02.executor": "Run",
-    "Application.com.ohgiraffers.section03.users.Application01.executor": "Run",
-    "Application.com.ohgiraffers.section03.uses.Application01.executor": "Run",
-    "Gradle.chap12-exception-lecture-source [:Application01.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.toDoOptions",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section03.users.Application01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section03.uses.Application01.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap12-exception-lecture-source [:Application01.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ohgiraffers.section02.userexception.exception" />
@@ -182,6 +150,7 @@
       <workItem from="1706070998069" duration="164000" />
       <workItem from="1706079789949" duration="1315000" />
       <workItem from="1706089642621" duration="1769000" />
+      <workItem from="1706139320061" duration="90000" />
     </task>
     <servers />
   </component>
