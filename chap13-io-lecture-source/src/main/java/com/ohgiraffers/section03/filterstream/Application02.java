@@ -11,7 +11,7 @@ public class Application02 {
         /* 설명. Scanner 역할을 하는 코드 */
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));   // 콘솔은 항상 존재하므로 예외처리 필요 x
 //      위 코드는  Scanner sc = new Scanner(System.in);과 동일한 개념
-        /* 추가. System.in: 기반스트림 Buffer와 InputStream이 보조 스트림 */
+        /* 메모. System.in: 기반스트림 Buffer와 InputStream이 보조 스트림 */
 
         System.out.print("문자열 입력: ");
         try {

@@ -7,7 +7,7 @@ public class Application01 {
     public static void main(String[] args) {
 
         /* 수업목표. File 클래스의 사용 용법을 이해할 수 있다. */
-        /* 추가. 경로 입력 시 '/' 와 '\\' 는 동일하게 인식됨. 둘 중 아무거나 사용 */
+        /* 메모   . 경로 입력 시 '/' 와 '\\' 는 동일하게 인식됨. 둘 중 아무거나 사용 */
         File file = new File("src/main/java/com/ohgiraffers/section01/file/test.txt");
 
         try {

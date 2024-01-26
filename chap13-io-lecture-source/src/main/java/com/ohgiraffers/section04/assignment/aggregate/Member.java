@@ -10,7 +10,7 @@ public class Member implements Serializable {   // 객체 입출력을 위해 Se
     private String id;              // 회원 아이디
     private String pwd;             // 회원 비밀번호
     private int age;                // 회원 나이
-    private String[] habbies;       // 회원 취미
+    private String[] hobbies;       // 회원 취미
     private BloodType bloodType;    // 혈액형(Enum타입으로 4가지만 들어가도록 제약조건을 설정 한 것)
 
     /* 설명. 엔티티 클래스는 setter를 꼭 필요한 것만 만든다.(불변객체이기 때문) */
@@ -18,13 +18,29 @@ public class Member implements Serializable {   // 객체 입출력을 위해 Se
     public Member() {
     }
 
+    public Member(String id, String pwd, int age, String[] hobbies) {
+        this.id = id;
+        this.pwd = pwd;
+        this.age = age;
+        this.hobbies = hobbies;
+    }
+
     public Member(int memNo, String id, String pwd, int age, String[] habbies, BloodType bloodType) {
         this.memNo = memNo;
         this.id = id;
         this.pwd = pwd;
         this.age = age;
-        this.habbies = habbies;
+        this.hobbies = habbies;
         this.bloodType = bloodType;
+    }
+
+    // setter
+    public void setBloodType(BloodType bloodType) {
+        this.bloodType = bloodType;
+    }
+
+    public void setMemNo(int memNo) {
+        this.memNo = memNo;
     }
 
     // getter
@@ -45,7 +61,7 @@ public class Member implements Serializable {   // 객체 입출력을 위해 Se
     }
 
     public String[] getHabbies() {
-        return habbies;
+        return hobbies;
     }
 
     public BloodType getBloodType() {
@@ -60,7 +76,7 @@ public class Member implements Serializable {   // 객체 입출력을 위해 Se
                 ", id='" + id + '\'' +
                 ", pwd='" + pwd + '\'' +
                 ", age=" + age +
-                ", habbies=" + Arrays.toString(habbies) +
+                ", habbies=" + Arrays.toString(hobbies) +
                 ", bloodType=" + bloodType +
                 '}';
     }

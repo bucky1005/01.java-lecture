@@ -9,7 +9,7 @@ public class Application03 {
     public static void main(String[] args) {
 
         /* 수업목표. FileOutputStream에 대해 이해하고 활용할 수 있다 */
-        /* 추가. 1바이트씩 전송되는 스트림 */
+        /* 메모. 1바이트씩 전송되는 스트림 */
         FileOutputStream fout = null;
 
         try {

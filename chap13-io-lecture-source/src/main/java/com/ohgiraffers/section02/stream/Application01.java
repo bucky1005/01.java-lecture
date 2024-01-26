@@ -11,7 +11,7 @@ public class Application01 {
     public static void main(String[] args) {
 
         /* 수업목표. 입출력 스트림에 대해 이해하고 파일을 대상으로 하는 FileInputStream을 사용할 수 있다. */
-        /* 추가. 바이트 기반 스트림으로 숫자, 영어, 기호만 읽어오로 수 있음 */
+        /* 메모. 바이트 기반 스트림으로 숫자, 영어, 기호만 읽어오로 수 있음 */
 
         FileInputStream fin = null;
 

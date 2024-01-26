@@ -38,7 +38,7 @@ public class Application04 {
                                     new FileOutputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObject.txt", true))));
             }
 
-            /* 추가. 객체(Object)타입의 데이터를 스트림으로 전송할 때에는 직렬화(Serialize)를 통해 데이터를 잘게 분해하여 전송해야 한다.
+            /* 메모. 객체(Object)타입의 데이터를 스트림으로 전송할 때에는 직렬화(Serialize)를 통해 데이터를 잘게 분해하여 전송해야 한다.
             *   이 경우 해당 객체를 생성하는 클래스에 Serializable 인터페이스를 구현(상속)해야 한다. */
             for (int i = 0; i < memArr.length; i++) {
                 if(memArr[i] == null) break;                // 배열의 크기로 인한 문제 해결은 break문
