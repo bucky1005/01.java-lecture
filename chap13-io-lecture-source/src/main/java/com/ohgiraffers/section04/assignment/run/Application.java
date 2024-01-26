@@ -64,7 +64,7 @@ public class Application {
         int age = sc.nextInt();
         System.out.print("입력 할 취미 개수를 입력하세요(1 이상): ");
         int length = sc.nextInt();
-        sc.nextLine();                  // Sacnner 버퍼에 남아있을 엔터 제거용
+        sc.nextLine();                  // Scanner 버퍼에 남아있을 엔터 제거용
 
         String[] hobbies = new String[length];
 
