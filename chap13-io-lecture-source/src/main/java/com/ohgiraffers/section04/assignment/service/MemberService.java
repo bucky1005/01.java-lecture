@@ -10,6 +10,8 @@ import java.util.ArrayList;
 public class MemberService {
 
     /* 메모. mr에는 최종적으로 MemberRepository의 필드에 선언되어 있는 값들 (= memberList)이 담겨있다. */
+    /* 질문. Application에선 Service클래스를 static final로 선언했는데
+        Repository 클래스는 왜 final로 선언을 하는것일까 */
     private final MemberRepository mr = new MemberRepository();
 
     public MemberService() {

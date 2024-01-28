@@ -58,42 +58,43 @@ public class B_nestedFor {
         int inputNum = sc.nextInt();
 
         /* 연습 */
-//        for(int i = 1; i <= inputNum; i++) {
-//            for (int j = i; j <= inputNum - 1; j++) {
-//                System.out.print(" ");
-//            }
-//
-//            for (int k = 1; k <= i; k++) {
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
+        for (int i = 1; i <= inputNum; i++) {
+            for (int j = i; j <= inputNum - 1; j++) {
+                System.out.print(" ");
+            }
 
-        for(int i = 1; i <= inputNum; i++){
-            // 한 줄에 출력되는 문자의 개수는 inputNum개
+            for (int k = 1; k <= i; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
-            /* 설명. 공백 출력용 안쪽 for문(inputNum - 1) */
+//        for(int i = 1; i <= inputNum; i++){
+        // 한 줄에 출력되는 문자의 개수는 inputNum개
+
+        /* 설명. 공백 출력용 안쪽 for문(inputNum - 1) */
 //            for(int j = i; j <= inputNum-1; j++){
 //                System.out.print(" ");
 //            }
-            printSpace(inputNum, i);
-            /* 설명. 별 출력용 안쪽 for문(i) */
+//            printSpace(inputNum, i);
+        /* 설명. 별 출력용 안쪽 for문(i) */
 //            for(int k = 1; k<= i; k++) {
 //                System.out.print("*");
 //            }
-            printStars(inputNum, i);
-            System.out.println();
-        }
-    }
-    private void printSpace(int input, int i) {
-        for (int j = i; j <= input - 1; j++) {
-            System.out.print(" ");
-        }
-    }
-
-    private void printStars(int input, int i){
-        for(int k = 1; k<= i; k++) {
-            System.out.print("*");
-        }
+//            printStars(inputNum, i);
+//            System.out.println();
+//        }
+//    }
+//    private void printSpace(int input, int i) {
+//        for (int j = i; j <= input - 1; j++) {
+//            System.out.print(" ");
+//        }
+//    }
+//
+//    private void printStars(int input, int i){
+//        for(int k = 1; k<= i; k++) {
+//            System.out.print("*");
+//        }
+//    }
     }
 }

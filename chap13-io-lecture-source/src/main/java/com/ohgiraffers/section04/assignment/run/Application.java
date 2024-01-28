@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Application {
 
     /* 메모. MemberService에는 MemberRepository에 담겨있는 memberList 정보가 들어있다. */
+    /* 질문. 왜 static final로 선언을 하는걸까 */
     private static final MemberService mm = new MemberService();
 
     public static void main(String[] args) {
