@@ -36,20 +36,39 @@ public class Application01 {
 //        intArr[3] = 40;
 //        intArr[4] = 50;
 
+        int[] intArr2 = new int[4];
+
         /* 설명. 각 배열에 접근해 각각 값을 대입하기 */
+        System.out.println("intArr1 ============");
         for (int i = 0; i < 5; i++) {
             intArr[i] += 10 * (i + 1);
             System.out.println(intArr[i]);
         }
+        System.out.println();
+
+        System.out.println("intArr2 ============");
+        for (int i = 0; i < intArr2.length; i++) {
+            intArr2[i] += 2 * (i + 1);
+            System.out.println(intArr2[i]);
+        }
+        System.out.println();
 
         /* 설명. 각 배열에 접근해 값 불러와 출력하기 */
         System.out.println("배열의 길이: " + intArr.length);
         for (int i = 0; i < intArr.length; i++) {
             System.out.println("intArr[" + i + "] = " + intArr[i]);
         }
+        System.out.println();
+
+        System.out.println("intArr2.length: " + intArr2.length);
+        for (int i = 0; i < intArr2.length; i++) {
+            System.out.println("intArr2[" + i + "] = " + intArr2[i]);
+        }
+        System.out.println();
 
         /* 설명. 1차원 배열을 한번에 문자열로 출력할 때 간단히 출력해보기 */
         System.out.println(Arrays.toString(intArr));        // 결과값: [10, 20, 30, 40, 50]
+        System.out.println(Arrays.toString(intArr2));
     }
 
 }
