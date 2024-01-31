@@ -1,5 +1,6 @@
 package com.ohgiraffers.chap02.section01.sorting;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /* 수업목표. 선택 정렬을 이해할 수 있다. */
@@ -47,7 +48,11 @@ public class Application02 {
         }
 
         /* 설명. 알고리즘 실행 */
-        solution(length, arr);
+        System.out.println("===== 오름차순 정렬 =====");
+        solution(arr, length);
+//        System.out.println("===== 내림차순 정렬 =====");
+//        solution1(length, arr);
+
         System.out.println();
 
         /* 설명. 정렬 결과 출력 */
@@ -57,17 +62,43 @@ public class Application02 {
         }
     }
 
-    public static void solution(int length, int[] arr){
+    public static void solution1(int length, int[] arr){
+        /* 메모. i를 length - 1까지 반복하는 이유
+            j가 i+1부터 시작하여 배열의 끝까지 반복하므로
+            i는 length - 1까지 반복하여야 마지막 반복에서 마지막 인덱스값과 비교가 가능하다. */
+        /* 설명. i를 선택인덱스로 하여 앞부터 내림차순 정렬 */
         for (int i = 0; i < length - 1; i++) {
             int maxIndex = i;               // 가장 큰 값이 담긴 인덱스를 저장
 
+//            System.out.println("현재 maxIndex: " + i +"번 인덱스의 " + arr[i]);
+//            System.out.println(i + "번째 인덱스 순회: " + Arrays.toString(arr));
+//            System.out.println();
+
             /* 설명. j 범위에서 가장 큰 값을 maxIndex에 저장(내림차순) */
             for (int j = i + 1; j < length; j++) {
-                if(arr[i] < arr[j]){
-                    maxIndex = j;
+                if(arr[i] < arr[j]){    // maxindex의 값이 j 인덱스의 값보다 작은경우
+                    maxIndex = j;       // maxIndex를 j로 변경
+
+                    // arr[i]와 arr[maxIndex]의 데이터를 swap
                     int temp = arr[i];
                     arr[i] = arr[maxIndex];
                     arr[maxIndex] = temp;
+                }
+            }
+        }
+    }
+
+    /* 메모. 오름차순으로 연습 */
+    public static void solution(int[] arr, int length){
+        for (int i = 0; i < length-1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < length; j++) {
+                if(arr[i] > arr[j]){
+                    minIndex = j;
+
+                    int temp = arr[i];
+                    arr[i] = arr[minIndex];
+                    arr[minIndex] = temp;
                 }
             }
         }
