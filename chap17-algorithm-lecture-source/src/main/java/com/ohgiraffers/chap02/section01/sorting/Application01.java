@@ -30,7 +30,6 @@ public class Application01 {
      *       34 23 5 24 1 9 12
      *   예시 출력 1
      *     - 1 5 9 12 23 24 34
-     *
      *  설명.
      *   예시 입력 2
      *     - 6
@@ -52,7 +51,8 @@ public class Application01 {
         }
         
         /* 설명. 알고리즘 실행 */
-        solution(length, arr);
+//        solution(length, arr);
+        solution2(length, arr);                 // while문 사용
         System.out.println();
 
         /* 설명. 정렬 결과 출력 */
@@ -63,19 +63,51 @@ public class Application01 {
     }
     
     public static void solution(int length, int[] arr){
+        /* 질문. 정렬이 끝나도 무조건 length - 1까지 반복을 하는데,
+            정렬이 완료되면 바로 반복을 종료하게 하려면 어떻게 해야 할까?
+            => swap이 발생하지 않으면 정렬이 완료된 것이므로 swap 발생 유무를 flag 변수로 만들어 활용해보기
+         */
+        boolean flag;
+
+        /* 메모. length - 1 까지 반복하는 이유
+            버블정렬은 두 개씩 짝지어서 값을 비교하기 때문에 length - 1까지 반복을 돌려야 모든 인덱스를 비교-정렬한다.
+         */
         for (int i = 0; i < length - 1; i++) {
             System.out.println(i + "번째 순회: " + Arrays.toString(arr));
-            for (int j = 0; j < length - 1; j++) {      // length - 1까지 반복하는 이유는 두 개씩 짝지어서 비교를 하기 때문에
-                                                        // length - 1번을 반복할 때 맨 마지막 인덱스도 함께 비교를 하게되므로 모든 인덱스를 정렬할 수 있음.
+            flag = false;
+            for (int j = 0; j < length - 1; j++) {
                 if(arr[j] > arr[j+1]){      // 앞의 값이 바로 뒤의 값보다 클 때 두 값을 스위칭
 
                     // swap
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+
+                    flag = true;
                 }
             }
-            
+            if(!flag) return;
+        }
+
+    }
+
+    public static void solution2(int length, int[] arr){
+        boolean flag = false;
+        int cnt = 0;
+
+        while(!flag){
+            flag = true;
+            System.out.println(++cnt + "번째 순회: " + Arrays.toString(arr));
+
+            for (int i = 0; i < length - 1; i++) {
+                if(arr[i] > arr[i+1]){
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+
+                    flag = false;
+                }
+            }
         }
     }
 }
