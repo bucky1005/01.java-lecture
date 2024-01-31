@@ -19,7 +19,7 @@ public class Application {
     }
 
     /* 설명. 상수 시간 O(1) */
-
+    /* 메모. 입력한 데이터만큼의 시간이 소요됨 */
     private static int getFirst(int[] arr) {
         return arr[0];
     }
