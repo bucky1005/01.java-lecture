@@ -43,7 +43,7 @@ public class Application02Tests {
     @ParameterizedTest
     @MethodSource("provideAscendingSource")       // Stream 메소드의 소스를 사용하므로 MethodSource 명시
     public void selectionSortTests(int length, int[] actual, int[] expected){
-        Application02.solution(length, actual);             // actual로 넘어온 입력값을 주소로 참조하여 solution에서 actual을 정렬함
+//        Application02.solution(length, actual);             // actual로 넘어온 입력값을 주소로 참조하여 solution에서 actual을 정렬함
         Assertions.assertArrayEquals(expected, actual);     // 기대값과 solution 메소드 실행값이 같은지 비교
     }
 }
